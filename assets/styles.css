@@ -1,0 +1,302 @@
+/* ================================
+   Smart City Traffic Forecasting
+   Professional Dashboard Theme
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"]{
+    font-family: "Poppins", sans-serif;
+}
+
+/* ================================
+Background
+================================ */
+
+.stApp{
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #111827
+    );
+
+    color:white;
+
+}
+
+
+/* ================================
+Sidebar
+================================ */
+
+section[data-testid="stSidebar"]{
+
+    background:#111827;
+
+    border-right:1px solid #2b3445;
+
+}
+
+/* Sidebar Title */
+
+.sidebar-title{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#4F8BF9;
+
+}
+
+/* ================================
+Header
+================================ */
+
+.main-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+    font-size:18px;
+
+}
+
+
+/* ================================
+Cards
+================================ */
+
+.metric-card{
+
+    background:#1e293b;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    text-align:center;
+
+    transition:0.3s;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    box-shadow:0px 6px 20px rgba(0,0,0,.35);
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-6px);
+
+    border:1px solid #4F8BF9;
+
+    box-shadow:0px 10px 30px rgba(79,139,249,.35);
+
+}
+
+.metric-title{
+
+    color:#94a3b8;
+
+    font-size:16px;
+
+}
+
+.metric-value{
+
+    font-size:32px;
+
+    color:#ffffff;
+
+    font-weight:700;
+
+}
+
+
+/* ================================
+Buttons
+================================ */
+
+.stButton>button{
+
+    width:100%;
+
+    border-radius:12px;
+
+    height:48px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:17px;
+
+    border:none;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+/* ================================
+DataFrame
+================================ */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+
+/* ================================
+Uploader
+================================ */
+
+[data-testid="stFileUploader"]{
+
+    background:#1e293b;
+
+    border-radius:15px;
+
+    padding:15px;
+
+}
+
+
+/* ================================
+Success Box
+================================ */
+
+.success-box{
+
+    background:#14532d;
+
+    color:white;
+
+    border-radius:12px;
+
+    padding:12px;
+
+}
+
+
+/* ================================
+Warning Box
+================================ */
+
+.warning-box{
+
+    background:#78350f;
+
+    color:white;
+
+    border-radius:12px;
+
+    padding:12px;
+
+}
+
+
+/* ================================
+Footer
+================================ */
+
+.footer{
+
+    margin-top:60px;
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    font-size:15px;
+
+}
+
+
+/* ================================
+Image
+================================ */
+
+.logo{
+
+    display:block;
+
+    margin:auto;
+
+}
+
+
+/* ================================
+Animation
+================================ */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+.metric-card{
+
+    animation:fadeIn .7s ease;
+
+}
+
+
+/* ================================
+Scrollbar
+================================ */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#4F8BF9;
+
+    border-radius:20px;
+
+}

@@ -1,0 +1,15 @@
+pandas 
+numpy
+ipykernel
+matplotlib
+seaborn 
+scikit-learn 
+xgboost 
+joblib
+streamlit
+plotly
+streamlit-option-menu
+streamlit-extras
+streamlit-aggrid
+pillow
+kaleido
