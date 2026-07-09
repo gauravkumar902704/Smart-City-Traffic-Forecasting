@@ -209,32 +209,39 @@ Visualization
 | RMSE | Generated after training |
 | R² Score | Generated after training |
 
----
 
-# 📸 Dashboard Preview
 
 ## Dashboard
 
-![Dashboard](screenshots/Dashboard.pdf)
+- 📄 Dashboard: [Dashboard.pdf](screenshots/Dashboard.pdf)
 
 ## Train
 
-![Train](screenshots/train.pdf)
+- 📄 Train: [train.pdf](screenshots/train.pdf)
+
+
 
 ## Prediction
 
-![Prediction](screenshots/prediction.pdf)
-![Prediction](screenshots/prediction1.pdf)
-![Prediction](screenshots/prediction2.pdf)
-![Prediction](screenshots/prediction3.pdf)
+- 📄 Prediction: [Prediction.pdf](screenshots/prediction.pdf)
+
+- 📄 Prediction: [Prediction1.pdf](screenshots/prediction1.pdf)
+
+- 📄 Prediction: [Prediction2.pdf](screenshots/prediction2.pdf)
+
+- 📄 Prediction: [Prediction3.pdf](screenshots/prediction3.pdf)
+
 
 ## Model Analysis
 
-![Analysis](screenshots/Analysis.pdf)
+- 📄 Model Analysis: [Analysis.pdf](screenshots/Analysis.pdf)
+
+
 
 ## About
 
-![About](screenshots/About.pdf)
+- 📄 About : [About.pdf](screenshots/About.pdf)
+
 
 # 📁 Outputs Generated
 
