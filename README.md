@@ -1,9 +1,13 @@
 # 🚦 Smart City Traffic Forecasting using Machine Learning
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-RandomForest-orange?logo=scikitlearn)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-RandomForest-orange)
+
 ![License](https://img.shields.io/badge/License-MIT-green)
+
 
 ---
 
